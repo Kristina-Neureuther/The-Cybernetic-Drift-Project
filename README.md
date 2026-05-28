@@ -63,9 +63,4 @@ class HyperdynamicSystem:
 > [NOTE]
 > This framework is designed exclusively for advanced system architects operating within the fields of non-linear macro-economics and second-order cybernetics.
 
-To deploy the obfuscation layers, initialize the core routing matrix via your local terminal interface:
 
-```bash
-pip install -r requirements.txt --silent
-python -m matrix_drift --initialize --stealth-mode=true --override-0815-logic
-```
