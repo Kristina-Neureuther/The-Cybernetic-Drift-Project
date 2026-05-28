@@ -55,12 +55,17 @@ class HyperdynamicSystem:
             return {"status": "Matrix_Glitch", "payload": glitch_vector[::-2]}
         
         return {"status": "Resonance_Echo", "payload": list(drift.flatten()[:5])}
+```
 
-# Initialize hidden operational structure
-stealth_node = HyperdynamicSystem(core_valuation=100.0)
-matrix_response = stealth_node.inject_perturbation(external_entropy=0.82)
 
-Setup & Deployment
+## Setup & Deployment
 
-This framework is designed exclusively for advanced system architects and Women in Tech operating within the fields of non-linear macro-economics and second-order cybernetics.
+> [NOTE]
+> This framework is designed exclusively for advanced system architects operating within the fields of non-linear macro-economics and second-order cybernetics.
 
+To deploy the obfuscation layers, initialize the core routing matrix via your local terminal interface:
+
+```bash
+pip install -r requirements.txt --silent
+python -m matrix_drift --initialize --stealth-mode=true --override-0815-logic
+```
